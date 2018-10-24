@@ -1,0 +1,42 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:latest",
+        "tslint-config-airbnb",
+        "tslint-react",
+        "tslint-immutable",
+        "tslint-sonarts"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-implicit-dependencies": false,
+        "no-submodule-imports": false,
+        "member-access": [true, "no-public"],
+        "no-empty-interface": false,
+        "interface-name": [true, "never-prefix"],
+        "object-literal-sort-keys": false,
+        "ordered-imports": false,
+        "import-name": false,
+        "variable-name": [true, "allow-pascal-case"],
+        "ter-func-call-spacing": false,
+        "align": [true, "parameters", "statements", "members", "elements"],
+        "jsx-no-multiline-js": false,
+        "jsx-boolean-value": [true, "never"],
+        "jsx-no-lambda": false,
+        "no-var-keyword": true,
+        "no-let": true,
+        "no-parameter-reassignment": true,
+        "no-delete": true
+    },
+    "rulesDirectory": [],
+    "linterOptions": {
+        "exclude": [
+            "node_modules",
+            "dist",
+            "etc",
+            "scripts",
+            "postcss.config.js",
+            "webpack.config.js"
+        ]
+    }
+}

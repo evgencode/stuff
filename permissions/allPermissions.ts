@@ -1,0 +1,14 @@
+export const VIEW_ACCOUNTS = 'View Accounts';
+export const EDIT_ACCOUNTS = 'Edit Accounts';
+export const VIEW_PRODUCTS = 'View Products';
+export const EDIT_PRODUCTS = 'Edit Products';
+export const EMAIL_SETUP_VIEW = 'Email Setup View';
+export const EMAIL_SETUP_EDIT = 'Email Setup Edit';
+export const EVENT_LOG_VIEW = 'Event Log View';
+export const EVENT_LOG_CLEAR = 'Event Log Clear';
+export const NETWORK_SETTINGS_VIEW = 'Network Settings View';
+export const NETWORK_SETTINGS_EDIT = 'Network Settings Edit';
+export const REPORTS_VIEW = 'Reports View';
+export const SYSTEM_TIME_VIEW = 'System Time View';
+export const SYSTEM_TIME_EDIT = 'System Time Edit';
+export const CHANGE_PASSWORD = 'Change Password';
